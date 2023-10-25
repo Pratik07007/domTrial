@@ -1,0 +1,62 @@
+*{
+    font-family: 'Gilroy';
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.pageone{
+    height: inherit;
+    width: inherit;
+    background-color: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 700px;
+    width: 600px;
+    background-color: white;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    border-radius: 20px;
+}
+.picture{
+    height: 430px;
+    width: 500px;
+   
+}
+.picture img {
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 30px;
+    
+}
+.picture h2{
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 15px;
+}
+.picture h1{
+    font-size: 50px;
+    margin: 5px 0px;
+    text-align: center;
+    color: red;
+}
+.picture button{
+    padding: 15px 50px;
+    position: relative;
+    left: 159px;
+    margin-top: 20px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+  
+}
